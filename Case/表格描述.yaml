@@ -1,0 +1,25 @@
+
+
+banner_case1:
+    case编号	：测试用例编号
+    作用	:描述
+    是否执行：yes执行 no不执行
+    前置条件：imooc_001>data.banner.[0].id  获取依赖数据的匹配规则模式 data下banner（banner下有多个ID）下 第一个平级[0]下的 ID
+    依赖key	：id  与前置条件的id不一定相同 前置条件的ID是上一个接口的返回值 取的是上一个接口的返回值对应的ID
+            依赖key的ID是的测试接口需要调用的的key
+    url	：各个模块URL 不包括HTTP可以用作断言的URl
+    method	:get post 其他暂无
+    data:{}不要数据 {"":"","":""}有数据  有依赖时候 把对应的key:value 写上
+    cookie操作:yes获取已经写入的cookies write是将执行后生成的cookies写入
+    header操作：yes 用作获取固定cookies、、、、、、、 need_token 需要获取token传入header 只能是最后一次传入的token
+    token    write 需要将生成的token写入
+    预期结果方式  errorcode = res.get('code') 根据实际提取code
+               "errorcode+message"/ code码和 返回信息
+                json/ /in   json 是有码的格式对比  in 是无码的格式对比
+                errorcode  只对比code
+    预期结果
+    result 是否通过
+    数据 执行结果
+
+
+

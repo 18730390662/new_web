@@ -1,0 +1,14 @@
+{
+  "charconvert/change.from": [
+    {"success": {"error_code": 0, "reason": "Return Successd!", "instr": "csdn论坛Millet-接口自动化测试", "outstr": "csdn论坛Millet-接口自动化测试"}},
+    {"error": {"resultcode": "101", "reason": "KEY ERROR!", "result": [], "error_code": 10001}}
+  ],
+  "erp/user": [
+
+    {"success":{"name": [], "pwd": [], "age": [], "email": [], "phone": []}},
+    {"error":{"name": [], "pwd": [], "age": [], "email": [], "phone": []} }
+
+
+  ]
+
+}
