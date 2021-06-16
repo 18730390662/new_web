@@ -1,6 +1,8 @@
 #coding=utf-8
 import os,sys,unittest
+sys.path.append(sys.path[0]+'\..')
 from Utils import HTMLTestRunner
+
 currentPath = os.path.abspath(os.path.dirname(__file__)) #当前文件夹目录
 ProjectPath = os.path.split(currentPath)[0] #项目那个层级的目录
 
